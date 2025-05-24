@@ -7,25 +7,25 @@ A CLI tool for generating Next.js project structure.
 ### ✨ `feature:create`
 Generate a new feature module. This command will prompt you for a feature name and optionally create a page and SCSS for the feature.
 
+#### Using Yarn
 ```
-yarn dlx @qmweb/next-maker feature:create
+yarn add @qmweb/next-maker -D
+yarn next-maker feature:create
 ```
 
+#### Using npm
 ```
-npx @qmweb/next-maker feature:create
+npm install @qmweb/next-maker --save-dev
+npx next-maker feature:create
+```
+
+#### Using pnpm
+```
+pnpm add -D @qmweb/next-maker
+pnpm exec next-maker feature:create
 ```
 
 ### 🧩 `component:create`
 Generate a new component. (⏳ Coming soon!)
 
 ```
-yarn dlx @qmweb/next-maker component:create
-```
-
-```
-npx @qmweb/next-maker component:create
-```
-
----
-
-More commands and features coming soon! 🚧

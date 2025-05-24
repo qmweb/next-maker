@@ -1,7 +1,7 @@
 {
   "name": "@qmweb/next-maker",
   "description": "🚀 A CLI tool for generating Next.js project structure.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "QM Web",
   "bin": "./bin/run.js",
   "bugs": "https://github.com/qmweb/next-maker/issues",
