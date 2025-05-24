@@ -1,5 +1,5 @@
 {
-  "name": "next-maker",
+  "name": "@qmweb/next-maker",
   "description": "🚀 A CLI tool for generating Next.js project structure.",
   "version": "1.0.1",
   "author": "QM Web",
@@ -15,16 +15,19 @@
     "ora": "^8.2.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^18.5.0",
+    "@commitlint/config-conventional": "^18.5.0",
     "@eslint/compat": "^1",
     "@oclif/prettier-config": "^0.2.1",
     "@oclif/test": "^4",
     "@types/chai": "^4",
     "@types/mocha": "^10",
-    "@types/node": "^18",
+    "@types/node": "^22.15.21",
     "chai": "^4",
     "eslint": "^9",
     "eslint-config-oclif": "^6",
     "eslint-config-prettier": "^10",
+    "lefthook": "^1.11.13",
     "mocha": "^10",
     "oclif": "^4",
     "shx": "^0.3.3",
